@@ -10,10 +10,10 @@ let password = prompt ("enter your password");
 let input =(password.length);
 if (input == 8){
     console.log ("Welcome");
-}else if (input <= 8 && input === 1 ){
+}else if (input <= 8){
     console.log ("Password is too short");
 }else if (input >= 8){
     console.log("Password should be 8 characters");
-}else if (input == 0){
+}else {
     console.log("Please provide a password");
 }
